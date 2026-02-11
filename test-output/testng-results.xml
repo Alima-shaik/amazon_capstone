@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-11T06:59:23 UTC" name="Default suite" finished-at="2026-02-11T06:59:23 UTC" duration-ms="150">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepdefines.run_test_amazon@b2c9a9c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-02-11T06:59:23 UTC" name="Default test" finished-at="2026-02-11T06:59:23 UTC" duration-ms="150">
+      <class name="stepdefines.run_test_amazon">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:stepdefines.run_test_amazon@b2c9a9c]" started-at="2026-02-11T06:59:23 UTC" name="setUpClass" finished-at="2026-02-11T06:59:23 UTC" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27508c5d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:stepdefines.run_test_amazon@b2c9a9c]" started-at="2026-02-11T06:59:23 UTC" name="tearDownClass" finished-at="2026-02-11T06:59:23 UTC" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- stepdefines.run_test_amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
